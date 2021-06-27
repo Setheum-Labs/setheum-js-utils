@@ -1,0 +1,25 @@
+{
+  "name": "api-proxy",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "format": "prettier --write 'packages/**/*.ts'"
+  },
+  "description": "an proxy service for polkadot api",
+  "author": "jbashir52@gmail.com <jbashir52@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.16.4",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.0",
+    "@typescript-eslint/parser": "^4.14.0",
+    "eslint": "^7.18.0",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1"
+  }
+}
